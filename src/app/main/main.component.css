@@ -2,6 +2,7 @@ table {
     margin: 3% 5% 3% 5%;
     width: 90%
 }
-table a {
+a {
+    color: inherit;
     text-decoration: none;
 }
