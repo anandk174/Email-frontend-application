@@ -1,0 +1,17 @@
+
+<mat-card>
+  <mat-card-header >      
+      <mat-card-title><span>Subject: </span><b>{{mail.subject}}</b></mat-card-title>
+      <mat-card-subtitle ><span><b>To: </b></span>{{mail.to}}</mat-card-subtitle>
+  </mat-card-header>  
+  
+  <mat-card-content>
+    <p>
+      {{mail.text}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>PREVIOUS</button>
+    <button mat-button>NEXT</button>
+  </mat-card-actions>
+</mat-card>

@@ -1,0 +1,11 @@
+.mat-toolbar {
+  color: rgb(40, 42, 45) 
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.example-links {
+  padding: 0 14px;
+  text-decoration: none;
+}
